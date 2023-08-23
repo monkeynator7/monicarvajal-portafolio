@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(237,194,113, 0.5);
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: rgba(233,67,94,0.3);
+    margin-top: 0%;
+    font-weight: lighter;
+    color: rgb(38, 60, 68);
+}
+.item-navbar{
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
