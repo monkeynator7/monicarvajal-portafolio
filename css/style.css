@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
+body a{
+    color: #F7F7F0;
+    text-decoration: inherit;
+}
 /* Navbar */
 #navbar {
     display: flex;
@@ -23,6 +27,8 @@ body {
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #F7F7F0;
+    list-style: none;
 }
 
 .dropdown {
@@ -55,7 +61,7 @@ body {
     display: block;
 }
 /* Navbar */
-
+/* Presentacion */
 #contenedor-presentacion{
     font-family: 'Roboto Mono', monospace;
     color:#F7F7F0;
@@ -94,3 +100,106 @@ body {
     color: #F7F7F0;
     margin-top: 5px;
 }
+.contenedor-logos{
+    display: flex;
+    width: 700px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.contenedor-logos img{
+    width: 40px;
+    padding: 5px;
+}
+/* Presentacion */
+/* Sobre mi */
+#contenedor-sobre-mi{
+    margin-right: 300px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+#contenedor-sobre-mi img{
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    right: 300px;
+}
+#contenedor-descripcion{
+    width: 600px;
+    margin-top: 0px;
+    color: #F7F7F0;
+}
+#contenedor-descripcion h2{
+    margin-top: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(255, 222, 89, 0.8);
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 222, 89, 0.7); 
+}
+#contenedor-descripcion p{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    color:#F7F7F0;
+    font-weight: 200;
+    text-align: justify;
+}
+.contenedor{
+    /* display: flex; */
+    justify-content: flex-end;
+
+}
+.cuadrado{
+    position: absolute;
+    background-color: #FFDE59;
+    width: 250px;
+    height: 300px;
+    right: 280px;
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.logo2{
+    width: 35px;
+    height: 40px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.contenedor-logosB{
+    display: flex;
+    width: 700px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+/* Sobre mi */
+/* Experiencia */
+/* #contenedor-experiencia{
+    margin-right: 300px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+#contenedor-contenido-experiencia{
+    width: 600px;
+    margin-top: 0px;
+    color: #F7F7F0;
+}
+#contenedor-contenido-experiencia h2{
+    margin-top: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(255, 222, 89, 0.8);
+    font-weight: 400;
+}
+#contenedor-contenido-experiencia p{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    color:#F7F7F0;
+    font-weight: 200;
+    text-align: justify;
+} */
+
+/* Experiencia */
