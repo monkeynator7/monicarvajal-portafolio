@@ -116,7 +116,7 @@ body a{
     margin-right: 300px;
     display: flex;
     margin-left: 200px;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 #contenedor-sobre-mi img{
     width: 250px;
@@ -144,7 +144,6 @@ body a{
     text-align: justify;
 }
 .contenedor{
-    /* display: flex; */
     justify-content: flex-end;
 
 }
@@ -177,29 +176,90 @@ body a{
 
 /* Sobre mi */
 /* Experiencia */
-/* #contenedor-experiencia{
-    margin-right: 300px;
+#contenedor-experiencia{
     display: flex;
     margin-left: 200px;
     margin-top: 300px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    width: 900px;
 }
-#contenedor-contenido-experiencia{
+.contenedor-contenido-experiencia{
     width: 600px;
     margin-top: 0px;
     color: #F7F7F0;
 }
-#contenedor-contenido-experiencia h2{
+.contenedor-contenido-experiencia h2{
     margin-top: 0px;
     font-family: 'Roboto Mono', monospace;
     color: rgba(255, 222, 89, 0.8);
     font-weight: 400;
+    border-bottom: 1px solid rgba(255, 222, 89, 0.7); 
 }
 #contenedor-contenido-experiencia p{
     margin-top: 0px;
     font-family: 'Roboto', sans-serif;
     color:#F7F7F0;
     font-weight: 200;
-    text-align: justify;
-} */
+    width: 40%;
+}
 
 /* Experiencia */
+#listado-experiencia{
+    width: 900px;
+
+}
+#listado-experiencia ul{
+    padding-left: 0px;
+    padding-right: 20px;
+
+    
+}
+#listado-experiencia p{
+    color: #F7F7F0;
+    font-weight: 200;
+
+    
+}
+#detalle-talento{
+    padding-right: 100px;
+    width: 600px;
+}
+li{
+    color: #F7F7F0;
+    font-weight: 300;
+    list-style: none;
+}
+.detalle-experiencia{
+    display: flex;
+}
+.institucion{
+    color:#FFDE59;
+    padding-bottom: 20px;
+}
+.contenido-programa{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    color:#F7F7F0;
+    font-weight: 200;
+    padding: 5px;
+
+    
+}
+#detalle-dh{
+    padding-right: 5px !important;
+    width: 500px !important;
+}
+.rupee{
+    width: 10px;
+    height: 15px;
+    padding-right: 5px;
+}
+.sub-list{
+    padding-top: 5px;
+    margin: 10px;
+}
+#flecha{
+    padding-top: 100px;
+    width: 100px;
+}
